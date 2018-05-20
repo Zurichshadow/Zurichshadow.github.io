@@ -13,13 +13,24 @@
     <link rel="stylesheet" href="/css/mic_main.css" />
     <link rel="stylesheet" href="/css/dropdownMenu.css" />
     <meta name="keywords" content="honey honey" />
+
     
     	<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	 
-	<script> (function(){ if('{{ page.password }}'){ if (prompt('请输入文章密码') !== '{{ page.password }}'){ alert('密码错误！'); history.back(); } } })(); </script>
-    <noscript>
+    <script>
+    (function(){
+        if('{{ page.password }}'){
+            if (prompt('请输入文章密码') !== '{{ page.password }}'){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+	</script>
+	<noscript>
         <link rel="stylesheet" href="/css/noscript.css" />
     </noscript>
+	
     <style type="text/css">
         body:before {
           content: ' ';
