@@ -34,10 +34,10 @@
 	#wrapper {
 		transform: none;
 		padding: 0;
-		-moz-transition: opacity 0.5s ease;
-		-webkit-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
+		-moz-transition: opacity 0.2s ease;
+		-webkit-transition: opacity 0.2s ease;
+		-ms-transition: opacity 0.2s ease;
+		transition: opacity 0.2s ease;
 		position: relative;
 		z-index: 1;
 		overflow: hidden;
@@ -111,10 +111,10 @@
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
-		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-		transition: opacity 1s ease, transform 1s ease;
+		-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease;
+		-webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
+		-ms-transition: opacity 0.4s ease, -ms-transform 0.4s ease;
+		transition: opacity 0.3s ease, transform 0.3s ease;
 		position: relative;
 		cursor: default;
 		text-align: center;
@@ -1387,6 +1387,7 @@
 	#main {
 		border-radius:5px;
 		background-color: #ffffff;
+		opacity: 0.6;
 		position: relative;
 		margin: 0 auto;
 		width: 100%;
