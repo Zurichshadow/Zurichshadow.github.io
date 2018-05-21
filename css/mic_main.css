@@ -93,7 +93,7 @@
 /* Intro */
 
 	#intro {
-		color: #ffffff;
+		color: #FFF0F5;
 		padding: 8rem 4rem 6rem 4rem ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -111,9 +111,9 @@
 		-webkit-justify-content: -webkit-flex-end;
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
-		-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease;
-		-webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease;
-		-ms-transition: opacity 0.4s ease, -ms-transform 0.4s ease;
+		-moz-transition: opacity 0.7s ease, -moz-transform 0.7s ease;
+		-webkit-transition: opacity 0.7s ease, -webkit-transform 0.7s ease;
+		-ms-transition: opacity 0.7s ease, -ms-transform 0.7s ease;
 		transition: opacity 0.3s ease, transform 0.3s ease;
 		position: relative;
 		cursor: default;
@@ -125,11 +125,11 @@
 	}
 
 		#intro input, #intro select, #intro textarea {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#intro a {
-			color: #ffffff;
+			color: #FFF0F5;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -139,25 +139,25 @@
 			}
 
 		#intro strong, #intro b {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#intro blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #FFF0F5;
 		}
 
 		#intro code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #FFF0F5;
 		}
 
 		#intro hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #FFF0F5;
 		}
 
 		#intro input[type="submit"],
@@ -166,8 +166,8 @@
 		#intro button,
 		#intro .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px #FFF0F5;
+			color: #FFF0F5 !important;
 		}
 
 			#intro input[type="submit"]:hover,
@@ -184,7 +184,7 @@
 			#intro input[type="button"].special,
 			#intro button.special,
 			#intro .button.special {
-				background-color: #ffffff;
+				background-color: #FFF0F5;
 				box-shadow: none;
 				color: #1e252d !important;
 			}
@@ -755,7 +755,7 @@
 		.button.special {
 			background-color: #212931;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #FFF0F5 !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -1111,7 +1111,7 @@
 /* Header */
 
 	#header {
-		color: #ffffff;
+		color: #FFF0F5;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1144,11 +1144,11 @@
 	}
 
 		#header input, #header select, #header textarea {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#header a {
-			color: #ffffff;
+			color: #FFF0F5;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -1158,24 +1158,24 @@
 			}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#header blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #FFF0F5;
 		}
 
 		#header code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #FFF0F5;
 		}
 
 		#header hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #FFF0F5;
 		}
 
 		#header .logo {
@@ -1188,7 +1188,7 @@
 			-ms-pointer-events: auto;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: #ffffff;
+			border-color: #FFF0F5;
 			border-width: 5px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
@@ -1386,8 +1386,8 @@
 
 	#main {
 		border-radius:5px;
-		background-color: #ffffff;
-		opacity: 0.6;
+		background-color: #FFF0F5;
+		opacity: 0.8;
 		position: relative;
 		margin: 0 auto;
 		width: 100%;
@@ -1411,7 +1411,7 @@
 		@media screen and (max-width: 736px) {
 
 			#main > * {
-				background-color: #ffffff;
+				background-color: #FFF0F5;
 				padding: 0.5rem 1rem 0.1rem 1rem ;
 			}
 
@@ -1420,7 +1420,7 @@
 		@media screen and (max-width: 480px) {
 
 			#main {
-				background-color: #ffffff;
+				background-color: #FFF0F5;
 				width: 100%;
 			}
 		}
@@ -1434,7 +1434,7 @@
 		display: -ms-flex;
 		display: flex;
 		background-color: #f5f5f5;
-		color: #909498;
+		color: #90.798;
 		cursor: default;
 		position: relative;
 		margin: 0 auto;
@@ -1858,7 +1858,7 @@
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #FFF0F5;
 		position: relative;
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
@@ -1876,11 +1876,11 @@
 	}
 
 		#copyright input, #copyright select, #copyright textarea {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#copyright a {
-			color: #ffffff;
+			color: #FFF0F5;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -1890,24 +1890,24 @@
 			}
 
 		#copyright strong, #copyright b {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#copyright h1, #copyright h2, #copyright h3, #copyright h4, #copyright h5, #copyright h6 {
-			color: #ffffff;
+			color: #FFF0F5;
 		}
 
 		#copyright blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #FFF0F5;
 		}
 
 		#copyright code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #FFF0F5;
 		}
 
 		#copyright hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #FFF0F5;
 		}
 
 		#copyright a {
@@ -1971,7 +1971,7 @@
 		top: 0.75rem;
 		right: 0.75rem;
 		border: 0;
-		color: #ffffff;
+		color: #FFF0F5;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
@@ -2002,7 +2002,7 @@
 		}
 
 			#navPanelToggle.alt:hover {
-				background-color: #ffffff;
+				background-color: #FFF0F5;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -2033,7 +2033,7 @@
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #FFF0F5;
 		box-shadow: none;
 		color: #000;
 		height: 100%;
@@ -2084,7 +2084,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #909498;
+			color: #90.798;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -2309,7 +2309,7 @@
 						height: 2.75em;
 						background: #000;
 						background: rgba(0, 0, 0, 0.75);
-						color: #ffffff;
+						color: #FFF0F5;
 						text-align: center;
 						font-size: 1.5em;
 						z-index: 1;
@@ -2408,7 +2408,7 @@
 			.panel {
 				padding: 15px 15px 15px 15px;
 				margin: 0 0 7px 0;
-				background: #ffffff;
+				background: #FFF0F5;
 				border-radius:5px;
 				box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 			}
@@ -2681,7 +2681,7 @@
 	}
 
 	.link_row.\32 00\25 > * {
-		padding: 0 0 0 4em;
+		padding: 0 0 0.7em;
 	}
 
 	.link_row.\32 00\25 {
@@ -2689,7 +2689,7 @@
 	}
 
 	.link_row.uniform.\32 00\25 > * {
-		padding: 4em 0 0 4em;
+		padding: 4em 0 0.7em;
 	}
 
 	.link_row.uniform.\32 00\25 {
@@ -2894,7 +2894,7 @@
 		}
 
 		.link_row.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.link_row.\32 00\25 {
@@ -2902,7 +2902,7 @@
 		}
 
 		.link_row.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.link_row.uniform.\32 00\25 {
@@ -3109,7 +3109,7 @@
 		}
 
 		.link_row.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.link_row.\32 00\25 {
@@ -3117,7 +3117,7 @@
 		}
 
 		.link_row.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.link_row.uniform.\32 00\25 {
@@ -3324,7 +3324,7 @@
 		}
 
 		.link_row.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.link_row.\32 00\25 {
@@ -3332,7 +3332,7 @@
 		}
 
 		.link_row.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.link_row.uniform.\32 00\25 {
@@ -3539,7 +3539,7 @@
 		}
 
 		.link_row.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.link_row.\32 00\25 {
@@ -3547,7 +3547,7 @@
 		}
 
 		.link_row.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.link_row.uniform.\32 00\25 {
@@ -3754,7 +3754,7 @@
 		}
 
 		.linkrow.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.linkrow.\32 00\25 {
@@ -3762,7 +3762,7 @@
 		}
 
 		.linkrow.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.linkrow.uniform.\32 00\25 {
@@ -3969,7 +3969,7 @@
 		}
 
 		.link_row.\32 00\25 > * {
-			padding: 0 0 0 4em;
+			padding: 0 0 0.7em;
 		}
 
 		.link_row.\32 00\25 {
@@ -3977,7 +3977,7 @@
 		}
 
 		.link_row.uniform.\32 00\25 > * {
-			padding: 4em 0 0 4em;
+			padding: 4em 0 0.7em;
 		}
 
 		.link_row.uniform.\32 00\25 {
