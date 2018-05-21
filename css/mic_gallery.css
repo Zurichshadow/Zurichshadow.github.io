@@ -31,7 +31,8 @@
 	}
 
 	blockquote, q {
-		quotes: none;
+		font-family: Microsoft YaHei; font-size: 16px; font-style: italic; width: 500px; margin: 0.25em 0; padding: 0.25em 40px; line-height: 1.45; position: relative; color: #383838; border:3px dashed #c1c1c1; background:#fff;
+
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
